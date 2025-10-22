@@ -82,11 +82,6 @@ It allows users to **register**, **log in**, **add new skills**, **track progres
 
    ```dart
    String baseUrl = "http://localhost/skill-bee-api/";
-## 📸 App Preview
-
-*(Add screenshots or GIFs of your app here — e.g., login screen, home screen, etc.)*
-
----
 
 ## 🧠 Tech Stack
 
