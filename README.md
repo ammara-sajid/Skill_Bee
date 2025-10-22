@@ -61,14 +61,6 @@ It allows users to **register**, **log in**, **add new skills**, **track progres
 - `skills` — stores skill names, user IDs, and progress  
 - `skill_progress` — stores progress updates related to each skill  
 
-**Connection Example:**
-```php
-<?php
-$conn = new mysqli("localhost", "root", "", "skill_tracker_db");
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-?>
 ## ⚙️ Setup Instructions
 
 ### 1. Backend Setup
