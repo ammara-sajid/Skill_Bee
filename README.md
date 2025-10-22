@@ -1,141 +1,122 @@
-🐝 Skill-Bee — Skill Tracker App
+# 🐝 Skill-Bee — Skill Tracker App
 
-Skill-Bee is a simple and efficient Skill Tracking Application that helps users manage, monitor, and improve their personal skills over time.
-It allows users to register, log in, add new skills, track progress, and view detailed skill information — all in one app.
+Skill-Bee is a simple and efficient **Skill Tracking Application** that helps users manage, monitor, and improve their personal skills over time.  
+It allows users to **register**, **log in**, **add new skills**, **track progress**, and **view detailed skill information** — all in one app.  
 
-🚀 Features
+---
+
+## 🚀 Features
 
-🧑‍💻 User Authentication
+- 🧑‍💻 **User Authentication**
+  - Register new users  
+  - Login and secure access  
+  - User validation (Check User)  
 
-Register new users
+- 📝 **Skill Management**
+  - Add new skills  
+  - View all added skills  
+  - Delete skills  
+  - Get detailed skill information  
 
-Login and secure access
+- 📊 **Progress Tracking**
+  - Track skill progress over time  
+  - View detailed progress insights  
 
-User validation (Check User)
+- 📱 **Modern Frontend**
+  - Developed in **Flutter (Dart)**  
+  - Clean and responsive UI  
+  - Interactive navigation between screens  
 
-📝 Skill Management
+---
 
-Add new skills
+## 🏗️ Project Structure
 
-View all added skills
+### **Frontend (Flutter/Dart)**
+**Main Screens:**
+- `LoginScreen` — user login page  
+- `RegisterScreen` — user registration page  
+- `HomeScreen` — displays all skills  
+- `SkillDetailScreen` — shows detailed info of a skill  
+- `SkillProgressScreen` — shows progress and growth  
 
-Delete skills
+### **Backend (PHP)**
+**Core Files:**
+- `add_skill.php` — adds a new skill to the database  
+- `get_skill.php` — retrieves skill data  
+- `get_skill_progress.php` — retrieves skill progress details  
+- `delete_skill.php` — deletes a skill  
+- `login.php` — verifies user credentials  
+- `register.php` — registers a new user  
+- `get_user.php` — fetches user information  
+- `checkuser.php` — checks if a user already exists  
 
-Get detailed skill information
+---
 
-📊 Progress Tracking
+## 🗄️ Database (MySQL via phpMyAdmin)
 
-Track skill progress over time
+**Database Name:** `skill_tracker_db`
 
-View detailed progress insights
+**Main Tables:**
+- `users` — stores user account details  
+- `skills` — stores skill names, user IDs, and progress  
+- `skill_progress` — stores progress updates related to each skill  
 
-📱 Modern Frontend
+**Connection Example:**
+```php
+<?php
+$conn = new mysqli("localhost", "root", "", "skill_tracker_db");
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+## ⚙️ Setup Instructions
 
-Developed in Flutter (Dart)
+### 1. Backend Setup
 
-Clean and responsive UI
+1. Install **XAMPP** or any local PHP server.  
+2. Start **Apache** and **MySQL** services.  
+3. Create a new database named `skill_tracker_db` in **phpMyAdmin**.  
+4. Import your database tables (if any SQL file provided).  
+5. Place all PHP files in the `htdocs/skill-bee-api` folder.  
 
-Interactive navigation between screens
+---
 
-🏗️ Project Structure
-Frontend (Flutter/Dart)
+### 2. Frontend Setup
 
-Main Screens:
+1. Install **Flutter SDK** and **Dart**.  
+2. Clone or download this project folder.  
+3. Open the project in **Android Studio** or **VS Code**.  
+4. Update the base URL in your Flutter files to match your local server, e.g.  
 
-LoginScreen — user login page
+   ```dart
+   String baseUrl = "http://localhost/skill-bee-api/";
+## 📸 App Preview
 
-RegisterScreen — user registration page
+*(Add screenshots or GIFs of your app here — e.g., login screen, home screen, etc.)*
 
-HomeScreen — displays all skills
+---
 
-SkillDetailScreen — shows detailed info of a skill
+## 🧠 Tech Stack
 
-SkillProgressScreen — shows progress and growth
+| Layer | Technology |
+|-------|-------------|
+| Frontend | Flutter, Dart |
+| Backend | PHP (Procedural) |
+| Database | MySQL (via phpMyAdmin) |
+| Server | Localhost (XAMPP) |
 
-Backend (PHP)
+---
 
-Core Files:
+## 💡 Future Enhancements
 
-add_skill.php — adds a new skill to the database
+- Add **skill categories** (e.g., Technical, Creative, Soft Skills)  
+- Add **progress charts** and visual analytics  
+- Enable **cloud database** support (e.g., Firebase or MySQL hosting)  
+- Add **notifications** for daily skill updates  
 
-get_skill.php — retrieves skill data
+---
 
-get_skill_progress.php — retrieves skill progress details
+## 👩‍💻 Author
 
-delete_skill.php — deletes a skill
-
-login.php — verifies user credentials
-
-register.php — registers a new user
-
-get_user.php — fetches user information
-
-checkuser.php — checks if a user already exists
-
-🗄️ Database (MySQL via phpMyAdmin)
-
-Database Name: skill_tracker_db
-
-Main Tables:
-
-users — stores user account details
-
-skills — stores skill names, user IDs, and progress
-
-skill_progress — stores progress updates related to each skill
-
-⚙️ Setup Instructions
-1. Backend Setup
-
-Install XAMPP or any local PHP server.
-
-Start Apache and MySQL services.
-
-Create a new database named skill_tracker_db in phpMyAdmin.
-
-Import your database tables (if any SQL file provided).
-
-Place all PHP files in the htdocs/skill-bee-api folder.
-
-2. Frontend Setup
-
-Install Flutter SDK and Dart.
-
-Clone or download this project folder.
-
-Open the project in Android Studio or VS Code.
-
-Update the base URL in your Flutter files to match your local server, e.g.
-
-String baseUrl = "http://localhost/skill-bee-api/";
-
-
-Run the app using:
-
-flutter run
-
-📸 App Preview
-
-(You can add screenshots or GIFs of your app here — e.g., login screen, home screen, etc.)
-
-🧠 Tech Stack
-Layer	Technology
-Frontend	Flutter, Dart
-Backend	PHP (Procedural)
-Database	MySQL (via phpMyAdmin)
-Server	Localhost (XAMPP)
-💡 Future Enhancements
-
-Add skill categories (e.g., Technical, Creative, Soft Skills)
-
-Add progress charts and visual analytics
-
-Enable cloud database support (e.g., Firebase or MySQL hosting)
-
-Add notifications for daily skill updates
-
-👩‍💻 Author
-
-Ammara Sajid
-📧 [Add your email if you want]
+**Ammara Sajid**  
 💬 “Learning and improving one skill at a time with Skill-Bee 🐝”
