@@ -84,13 +84,13 @@ It allows users to **register**, **log in**, **add new skills**, **track progres
    String baseUrl = "http://localhost/skill-bee-api/";
 ## 📸 App Preview
 
-<img width="1080" height="2160" alt="Screenshot_1761126955" src="https://github.com/user-attachments/assets/b210b84c-a1b7-4921-8646-7d6a684330f2" />
-<img width="1080" height="2160" alt="Screenshot_1761569051" src="https://github.com/user-attachments/assets/11811a55-10f3-411a-8f2e-081427679f81" />
-<img width="1080" height="2160" alt="Screenshot_1761569595" src="https://github.com/user-attachments/assets/2a994f77-0975-4630-8374-9d3f6cc7a6f0" />
-<img width="1080" height="2160" alt="Screenshot_1761569642" src="https://github.com/user-attachments/assets/4f5dab3e-2bb9-4bff-a98a-12417f4ce66e" />
-<img width="1080" height="2160" alt="Screenshot_1761569649" src="https://github.com/user-attachments/assets/f2010799-2214-481b-a061-2d3dbeadcd19" />
-<img width="1080" height="2160" alt="Screenshot_1761569658" src="https://github.com/user-attachments/assets/096f23f9-de45-4fdc-b421-475cc4106908" />
-<img width="1080" height="2160" alt="Screenshot_1761569668" src="https://github.com/user-attachments/assets/1ca7c9b0-aa67-440b-ad6a-3d37c1984362" />
+<img width="195" height="382" alt="Screenshot_1761126955" src="https://github.com/user-attachments/assets/b210b84c-a1b7-4921-8646-7d6a684330f2" />
+<img width="195" height="382" alt="Screenshot_1761569051" src="https://github.com/user-attachments/assets/11811a55-10f3-411a-8f2e-081427679f81" />
+<img width="195" height="382" alt="Screenshot_1761569595" src="https://github.com/user-attachments/assets/2a994f77-0975-4630-8374-9d3f6cc7a6f0" />
+<img width="195" height="382" alt="Screenshot_1761569642" src="https://github.com/user-attachments/assets/4f5dab3e-2bb9-4bff-a98a-12417f4ce66e" />
+<img width="195" height="382" alt="Screenshot_1761569649" src="https://github.com/user-attachments/assets/f2010799-2214-481b-a061-2d3dbeadcd19" />
+<img width="195" height="382" alt="Screenshot_1761569658" src="https://github.com/user-attachments/assets/096f23f9-de45-4fdc-b421-475cc4106908" />
+<img width="195" height="382" alt="Screenshot_1761569668" src="https://github.com/user-attachments/assets/1ca7c9b0-aa67-440b-ad6a-3d37c1984362" />
 
 
 ---
